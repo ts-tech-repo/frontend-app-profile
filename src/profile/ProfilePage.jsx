@@ -53,7 +53,7 @@ class ProfilePage extends React.Component {
 
     this.state = {
       viewMyRecordsUrl: credentialsBaseUrl ? `${credentialsBaseUrl}/records` : null,
-      accountSettingsUrl: `${context.config.BASE_URL}/account/`,
+      accountSettingsUrl: `${context.config.ACCOUNT_SETTINGS_URL}/account/`,
     };
 
     this.handleSaveProfilePhoto = this.handleSaveProfilePhoto.bind(this);
