@@ -7,8 +7,8 @@ const messages = defineMessages({
     description: 'What users can see this area?',
   },
   'profile.visibility.who.everyone': {
-    id: 'profile.visibility.who.everyone',
-    defaultMessage: 'Everyone on {siteName}',
+    id: 'People in My Cohort',
+    defaultMessage: '',
     description: 'What users can see this area?',
   },
 });
