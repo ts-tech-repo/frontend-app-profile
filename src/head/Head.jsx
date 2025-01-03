@@ -7,18 +7,18 @@ import messages from "./messages";
 
 const Head = ({ intl }) => {
   const isIIITHCourse = localStorage.getItem("isIIITHCourse");
-  if (isIIITHCourse && isIIITHCourse.length > 0 && isIIITHCourse === "yes") {
-    const tag = document.querySelector(".logo");
-    let logoImage;
-    if (tag.tagName === "IMG") {
-      logoImage = document.querySelector(".logo");
-    } else {
-      logoImage = tag.querySelector("img");
-    }
+  // if (isIIITHCourse && isIIITHCourse.length > 0 && isIIITHCourse === "yes") {
+  //   const tag = document.querySelector(".logo");
+  //   let logoImage;
+  //   if (tag.tagName === "IMG") {
+  //     logoImage = document.querySelector(".logo");
+  //   } else {
+  //     logoImage = tag.querySelector("img");
+  //   }
 
-    logoImage.src =
-      "https://static.talentsprint.com/lms_maple/images/iiith_logo.png";
-  }
+  //   logoImage.src =
+  //     "https://static.talentsprint.com/lms_maple/images/iiith_logo.png";
+  // }
   return (
     <Helmet>
       <title>
